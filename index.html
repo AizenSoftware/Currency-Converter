@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Döviz Kuru</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="header-wrapper">
+          <h3>Döviz Kuru Çevirici</h3>
+        </div>
+        <div class="content-wrapper">
+          <input type="number" id="amount" placeholder="Miktar" />
+          <select id="firstCurrencyOption">
+            <option selected>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+          </select>
+          <i class="bi bi-arrow-left-right"></i>
+          <select id="secondCurrencyOption">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option selected>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+          </select>
+          <input type="text" id="result" placeholder="Sonuç" readonly />
+        </div>
+        <span class="copyRight">CopyRight - Caner Büyükduru</span>
+      </div>
+    </div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
